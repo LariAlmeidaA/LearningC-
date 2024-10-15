@@ -1,6 +1,6 @@
 # LearningC#
-##Licença 
-### Educacional
+## Licença 
+### edu
 
 ##Contribuicao
 ##GitFlow
