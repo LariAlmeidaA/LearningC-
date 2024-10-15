@@ -1,0 +1,40 @@
+using System;
+
+namespace FoodMenu {
+
+    class Menu
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Choice one option: 1 - Pizza/2-Hamburguér/3-Salad");
+            int option = int.Parse(Console.ReadLine());
+
+            switch (option)
+            {
+                case 1:
+                    Console.WriteLine("Option Choice this is Pizza");
+                    break;
+
+                 case 2:
+                   Console.WriteLine("Option Choice this is Hamburguer");
+                    break;
+                case 3:
+                    Console.WriteLine("Option Choice this is Salad");
+                    break;
+
+
+
+            }
+
+
+
+        }
+
+    }
+
+
+
+}
+
+
