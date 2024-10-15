@@ -9,11 +9,11 @@
 ### MIT Lincense (Share, Copy, distribuition, sell).
 
 ## Credits and Thanks
-### Thanks for emprise I working.
+### Thank you for company I work for.
 
 ## Contact
-### Email Larissaalmeidaara@gmail.com.
-### Phone 19997294158
+### Email Larissaalmeidaara@gmail.com
+
 
 
 
