@@ -47,3 +47,33 @@ class Program
     }
 }
 
+//Exercicio 2
+//Implemente uma classe Carro com uma variável de instância velocidade e um método Acelerar(), que incrementa velocidade em 10. Crie um segundo método ExibirVelocidade() para imprimir o valor atual da velocidade. 
+//Experimente declarar uma variável chamada velocidade dentro do método Acelerar(). Qual valor é exibido ao chamar ExibirVelocidade()?
+
+
+using System;
+
+class Carro
+{
+    float velocidade = 0;
+
+    public void Acelerar()
+    {
+        float velocidade = 10; // Esta é uma nova variável local
+        this.velocidade += 10; // Incrementa a variável de instância
+    }
+
+    public void ExibirVelocidade()
+    {
+        Console.WriteLine("A velocidade atual é " + velocidade);
+    }
+
+    static void Main()
+    {
+        Carro carro = new Carro();
+        carro.Acelerar();        // Incrementa a velocidade de instância em 10
+        carro.ExibirVelocidade(); // Exibe a velocidade da instância (10)
+    }
+}
+
