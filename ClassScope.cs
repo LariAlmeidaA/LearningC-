@@ -76,4 +76,39 @@ class Carro
         carro.ExibirVelocidade(); // Exibe a velocidade da instância (10)
     }
 }
+using System;
+
+//Exercicio 3
+//Desenvolva uma classe chamada Pessoa com uma variável de instância nome e um método DefinirNome(string novoNome)
+//Declare uma variável nome dentro do método DefinirNome e atribua o valor de novoNome a ela
+//Em seguida, crie outro método ExibirNome() para mostrar o valor de nome.
+//O que será exibido ao chamar ExibirNome()?
+
+class pessoa {
+
+    private String Nome = "Larissa";
+    public void DefinirNome()
+    { 
+    
+        Console.WriteLine("O nome é" +Nome);
+    
+    }
+
+
+    public void ALterarNome(string NovoNome)
+    { 
+    Nome= NovoNome;
+    }
+
+    class programa
+    {
+
+     static void Main(string[] args)
+{
+            pessoa meuNome = new pessoa();
+            meuNome.DefinirNome();
+            meuNome.ALterarNome("Pedro");
+            meuNome.DefinirNome();
+  }
+ }
 
